@@ -1,7 +1,7 @@
 VERSION = 3
 PATCHLEVEL = 4
 SUBLEVEL = 104
-EXTRAVERSION =
+EXTRAVERSION =-awidawad_custom_v0.0a
 NAME = Saber-toothed Squirrel
 
 # *DOCUMENTATION*
