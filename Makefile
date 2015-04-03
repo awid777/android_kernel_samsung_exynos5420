@@ -369,7 +369,11 @@ KBUILD_CFLAGS   := -Wall -Werror -Wundef -Wstrict-prototypes -Wno-trigraphs \
 		   -Werror-implicit-function-declaration \
 		   -Wno-format-security -Wno-unused \
 		   -fno-delete-null-pointer-checks \
-		   -Wno-aggressive-loop-optimizations
+		   -Wno-aggressive-loop-optimizations \
+		   -Wno-maybe-uninitialized \
+		   -fno-schedule-insns2 \
+		   -Wno-array-bounds \
+		   -Wno-error=array-bounds
 KBUILD_AFLAGS_KERNEL :=
 KBUILD_CFLAGS_KERNEL :=
 KBUILD_AFLAGS   := -D__ASSEMBLY__
